@@ -19,6 +19,10 @@ header{
     width: 103.68px;
     height: 18.88px;
 }
+.ll{
+    width: 100%;
+    text-align: end;
+}
 .link{
     padding: 30px;
     font-family: Readex Pro;
