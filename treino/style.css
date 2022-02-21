@@ -1,11 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&family=Readex+Pro:wght@500;600&display=swap');
+
+
 body{
     background-color: black;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 32px;
+    align-items: center;
+}
+.logo{
+    margin-left: 135px;
+    width: 103.68px;
+    height: 18.88px;
+}
+.link{
+    padding: 30px;
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.92);
+}
+.botao-cta{
+    margin-right: 132px;
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFD600;
+    width: 138px;
+    height: 43px;
+    left: 1032px;
+    top: 32px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 56px;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.txt-p{
+    padding-left: 135px;
+}
+
+.titulo{
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}
+
+.sub{
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-1{
+    width: 240px;
+    height: 62px;
+    left: 135px;
+    top: 559px;
+    background: #FFD600;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.btn-2{
+    width: 240px;
+    height: 62px;
+    left: 428px;
+    top: 559px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 100px;
+
+
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFD600;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+
+.txt-i{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    
+}
+.i1{
+    margin-top: -100px;
+    margin-right: 307px;
+    position: relative;
+}
+.i2{
+    margin-top: 200px;
+    margin-right: 136px;
+    position: absolute;
+    
 }
